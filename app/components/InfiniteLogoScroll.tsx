@@ -13,7 +13,7 @@ const InfiniteLogoScroll: React.FC = () => {
   return (
     <div className="w-full overflow-hidden bg-black py-10">
       <div className="text-center text-sm text-gray-400 mb-4">
-        You're in good hands:
+        You&apos;re in good hands:
       </div>
       <div className="flex animate-scroll">
         {[...logos, ...logos].map((logo, index) => (

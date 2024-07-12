@@ -10,7 +10,7 @@ const ThreeStepProcess: React.FC = () => {
         Our simple <span className="text-purple-500">3-step process</span>
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-3xl mx-auto">
-          Whether it's short-form videos, long-form content, or engaging ads, we handle it all to boost your online presence.
+          Whether it&#39;s short-form videos, long-form content, or engaging ads, we handle it all to boost your online presence.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -20,7 +20,7 @@ const ThreeStepProcess: React.FC = () => {
           </div>
           <h3 className="text-xl md:text-2xl font-bold mb-2">Record</h3>
           <p className="text-gray-400 text-center px-4">
-            Record your content and we'll guide you with effective video ideas and scripts for maximum engagement.
+            Record your content and we&#39;ll guide you with effective video ideas and scripts for maximum engagement.
           </p>
         </div>
         <div className="text-center bg-[#0d0d0d] rounded-xl p-8 space-y-6 text-white shadow-lg">
@@ -52,3 +52,4 @@ const ThreeStepProcess: React.FC = () => {
 };
 
 export default ThreeStepProcess;
+

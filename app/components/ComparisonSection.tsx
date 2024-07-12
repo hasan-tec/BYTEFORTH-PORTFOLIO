@@ -26,7 +26,7 @@ const Comparison = () => {
           But, why would you want to work <span className="text-purple-500">with us?</span>
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-          Discover the key differences between our agency and others. Here's why we stand out in the industry.
+          Discover the key differences between our agency and others. Here&apos;s why we stand out in the industry.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Card title="Other Agencies" items={otherAgencyItems} />

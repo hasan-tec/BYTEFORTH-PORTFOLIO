@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { FloatingElement } from "./FloatingElement"  // Make sure to adjust the import path as needed
+import Image from 'next/image';
 
 const HeroSection = () => {
   const profileImages = [
@@ -16,7 +17,7 @@ const HeroSection = () => {
       <div className="container mx-auto text-center px-4 relative z-10">
         <div className="flex flex-wrap justify-center mb-4">
           {profileImages.map((src, i) => (
-            <img key={i} src={src} alt={`Profile ${i + 1}`} className="w-12 h-12 md:w-8 md:h-8 rounded-full object-cover m-2" />
+            <Image key={i} src={src} alt={`Profile ${i + 1}`} width={32} height={32} className="rounded-full object-cover m-2 md:w-8 md:h-8" />
           ))}
         </div>
         <div className="text-sm mb-4">Trusted by 20+ brands & creators</div>

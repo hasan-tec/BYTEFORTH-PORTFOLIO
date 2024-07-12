@@ -44,7 +44,10 @@ const ResultsSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <p className="text-center text-gray-400 mb-2">Results</p>
         <h2 className="text-5xl font-bold text-center mb-4">
-          Results speak for <span className="text-purple-500">themselves.</span>
+        Results speak for <span className="text-purple-500">{`themselves`}</span>
+
+
+
         </h2>
         <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
           We've worked across a number of industries and have achieved some 

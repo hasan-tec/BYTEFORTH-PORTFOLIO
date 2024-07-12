@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import { FaQuoteLeft } from 'react-icons/fa';
+import Image from 'next/image'; // Import Image from next/image
 
 const rave = [
   {
@@ -22,7 +23,7 @@ const Rave: React.FC = () => {
     <div className="bg-black text-white py-16 px-4 md:px-20">
       <div className="text-center mb-12">
       <p className="text-gray-400 text-center text-sm mb-4">Testimonials</p>
-        <h2 className="text-4xl font-bold mt-4">There's a reason people <span className="text-purple-500">are raving</span> about us.</h2>
+        <h2 className="text-4xl font-bold mt-4">There&apos;s a reason people <span className="text-purple-500">are raving</span> about us.</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8"> {/* Changed from flex to grid */}
         {rave.map((testimonial, index) => (
@@ -30,7 +31,14 @@ const Rave: React.FC = () => {
             key={index}
             title={
               <div className="flex flex-col items-center">
-                <img src={testimonial.image} alt={testimonial.name} className="w-10 h-10 rounded-full mb-2" />
+                {/* Use Image from next/image */}
+                <Image 
+                  src={testimonial.image} 
+                  alt={testimonial.name} 
+                  width={40} // Set the width of the image
+                  height={40} // Set the height of the image
+                  className="rounded-full mb-2" 
+                />
                 <span className="text-sm font-bold">{testimonial.name}</span>
                 <span className="text-xs text-gray-400">{testimonial.position}</span>
               </div>
@@ -46,3 +54,4 @@ const Rave: React.FC = () => {
 };
 
 export default Rave;
+
