@@ -18,13 +18,13 @@ const TestimonialSection: React.FC = () => {
             message="I've used Diwas and his team for 2-3 months, creating 40-50 amazing videos. They handle everything efficiently and communicate well."
             clientName="Jimmy Conover"
             clientTitle="Founder @ Scale Video Agency"
-            clientImage="/jimmy-conover.jpg"
+            clientImage="/pexels-blitzboy-1040880.jpg"
           />
           <Testimonial
             message="I struggled with video editors until I found Diwas and Unchained. Our first video got 80 thousand views, transforming my channel."
             clientName="Yasir Khan"
             clientTitle="Speaking Coach"
-            clientImage="/yasir-khan.jpg"
+            clientImage="/pexels-jack-winbow-460463-1559486.jpg"
           />
         </div>
       </div>

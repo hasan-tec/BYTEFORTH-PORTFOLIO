@@ -24,17 +24,17 @@ const ResultsSection: React.FC = () => {
   const results = [
     {
       name: "Dr. Dustin Portela",
-      image: "/dr-dustin-portela.jpg",
+      image: "/pexels-blitzboy-1040880.jpg",
       stats: ["80k+ Subscribers", "Generated 10M+ Views"]
     },
     {
       name: "Craig Valentine",
-      image: "/craig-valentine.jpg",
+      image: "/pexels-moh-adbelghaffar-771742.jpg",
       stats: ["Generated 5M+ Views", "Added 70k+ Followers"]
     },
     {
       name: "Lara Acosta",
-      image: "/lara-acosta.jpg",
+      image: "/pexels-pixabay-34534.jpg",
       stats: ["Generated over 500k+ Views", "500k+ Impressions"]
     }
   ];

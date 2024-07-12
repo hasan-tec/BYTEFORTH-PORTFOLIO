@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   const profileImages = [
-    "/path/to/image1.jpg",
-    "/path/to/image2.jpg",
-    "/path/to/image3.jpg",
-    "/path/to/image4.jpg",
-    "/path/to/image5.jpg",
+    "/pexels-jack-winbow-460463-1559486.jpg",
+    "/pexels-blitzboy-1040880.jpg",
+    "/pexels-andrewpersonaltraining-697509.jpg",
+    "/pexels-pixabay-34534.jpg",
+    "/pexels-moh-adbelghaffar-771742.jpg",
   ];
 
   return (
