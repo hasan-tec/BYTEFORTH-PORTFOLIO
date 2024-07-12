@@ -18,7 +18,7 @@ const ServicesComponent: React.FC = () => {
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
           From short-form videos, to long-form videos, to ad creatives,
-          and VSLs, we've got you covered on every front.
+          and VSLs, we&apos;ve got you covered on every front.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ServiceCard 
