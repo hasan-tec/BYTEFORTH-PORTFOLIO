@@ -22,6 +22,7 @@ const config = {
     },
     extend: {
       colors: {
+        
         background: "#000000",
         foreground: "#FFFFFF",
         border: "hsl(var(--border))",
