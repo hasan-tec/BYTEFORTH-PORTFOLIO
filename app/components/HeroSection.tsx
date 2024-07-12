@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { FloatingElement } from "./FloatingElement"  // Make sure to adjust the import path as needed
+
 import Image from 'next/image';
 
 const HeroSection = () => {
