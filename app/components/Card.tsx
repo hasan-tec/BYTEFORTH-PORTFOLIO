@@ -4,6 +4,7 @@ interface CardProps {
   title: string;
   items: { icon: React.ReactNode; text: string; textColor: string }[];
   layout?: 'default' | 'testimonial';
+  children?: React.ReactNode; // Add this line to include children prop
 }
 
 const Card: React.FC<CardProps> = ({ title, items, layout = 'default', children }) => {
