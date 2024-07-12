@@ -40,8 +40,8 @@
     }
 
     * {
-      cursor: none !important;
-    }
+  cursor: none !important;
+}
 
     .dark {
       --background: 222.2 84% 4.9%;
