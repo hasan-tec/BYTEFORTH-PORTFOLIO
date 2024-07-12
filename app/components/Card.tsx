@@ -1,10 +1,10 @@
 import React from 'react';
 
 interface CardProps {
-  title: string;
+  title: string | React.ReactNode; // Allow title to be string or ReactNode
   items: { icon: React.ReactNode; text: string; textColor: string }[];
   layout?: 'default' | 'testimonial';
-  children?: React.ReactNode; // Add this line to include children prop
+  children?: React.ReactNode;
 }
 
 const Card: React.FC<CardProps> = ({ title, items, layout = 'default', children }) => {
