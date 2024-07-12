@@ -12,19 +12,24 @@ const CustomCursor: React.FC = () => {
     const follower = followerRef.current;
     if (!cursor || !follower) return;
 
+    let posX = window.innerWidth / 2;
+    let posY = window.innerHeight / 2;
+    let followerX = posX;
+    let followerY = posY;
+
     const moveCursor = (e: MouseEvent) => {
-      gsap.to(cursor, {
-        x: e.clientX,
-        y: e.clientY,
-        duration: 0.1,
-        ease: 'power3.out',
-      });
-      gsap.to(follower, {
-        x: e.clientX,
-        y: e.clientY,
-        duration: 0.15,
-        ease: 'power3.out',
-      });
+      posX = e.clientX;
+      posY = e.clientY;
+    };
+
+    const updateFollower = () => {
+      followerX += (posX - followerX) * 0.2;
+      followerY += (posY - followerY) * 0.2;
+
+      gsap.set(cursor, { x: posX, y: posY });
+      gsap.set(follower, { x: followerX, y: followerY });
+
+      requestAnimationFrame(updateFollower);
     };
 
     const handleMouseDown = () => setIsClicking(true);
@@ -33,6 +38,8 @@ const CustomCursor: React.FC = () => {
     window.addEventListener('mousemove', moveCursor);
     window.addEventListener('mousedown', handleMouseDown);
     window.addEventListener('mouseup', handleMouseUp);
+
+    requestAnimationFrame(updateFollower);
 
     return () => {
       window.removeEventListener('mousemove', moveCursor);
