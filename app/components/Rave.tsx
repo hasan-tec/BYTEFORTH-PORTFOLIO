@@ -8,13 +8,13 @@ const rave = [
     name: 'Mena Mikhail',
     position: 'Founder @ Human Voice Over',
     feedback: 'Awesome work! Never once left the loop for any revisions, and made sure end video was exactly what we were looking for.',
-    image: '/path/to/image1.jpg'
+    image: '/pexels-sulimansallehi-1704488.jpg'
   },
   {
     name: 'Inge von Aulock',
     position: 'Founder @ Penfriend',
     feedback: 'Working with Diwas was seamless. The quality was incredible, with versatile video and animation. It’s a one-stop shop. Excited for a long-term partnership.',
-    image: '/path/to/image2.jpg'
+    image: '/pexels-andrewpersonaltraining-697509.jpg'
   }
 ];
 

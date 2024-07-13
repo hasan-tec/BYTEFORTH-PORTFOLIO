@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaVideo, FaEdit, FaShareSquare } from 'react-icons/fa';
+import { FaLightbulb, FaHammer, FaRocket } from 'react-icons/fa';
 
 const ThreeStepProcess: React.FC = () => {
   return (
@@ -7,38 +7,38 @@ const ThreeStepProcess: React.FC = () => {
       <div className="container mx-auto">
         <p className="text-gray-400 text-center text-sm mb-4">Our Process</p>
         <h2 className="text-4xl md:text-5xl font-bold text-center text-white mb-4">
-        Our simple <span className="text-purple-500">3-step process</span>
+          Our simple <span className="text-purple-500">3-step process</span>
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-3xl mx-auto">
-          Whether it&#39;s short-form videos, long-form content, or engaging ads, we handle it all to boost your online presence.
+          Whether it&#39;s websites, mobile apps, or automation, we handle it all to boost your online presence.
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="text-center bg-[#0d0d0d] rounded-xl p-8 space-y-6 text-white shadow-lg">
           <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-900 flex items-center justify-center">
-            <FaVideo className="text-white text-3xl" />
+            <FaLightbulb className="text-white text-3xl" />
           </div>
-          <h3 className="text-xl md:text-2xl font-bold mb-2">Record</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-2">Plan</h3>
           <p className="text-gray-400 text-center px-4">
-            Record your content and we&#39;ll guide you with effective video ideas and scripts for maximum engagement.
+            Share your ideas, and we&#39;ll guide you with creative concepts and strategies for maximum impact.
           </p>
         </div>
         <div className="text-center bg-[#0d0d0d] rounded-xl p-8 space-y-6 text-white shadow-lg">
           <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-900 flex items-center justify-center">
-            <FaEdit className="text-white text-3xl" />
+            <FaHammer className="text-white text-3xl" />
           </div>
-          <h3 className="text-xl md:text-2xl font-bold mb-2">Edit</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-2">Create</h3>
           <p className="text-gray-400 text-center px-4">
-            Our experts transform your recordings into polished, goal-oriented videos ready for daily posting.
+            Our experts bring your vision to life, building polished, goal-oriented solutions ready for launch.
           </p>
         </div>
         <div className="text-center bg-[#0d0d0d] rounded-xl p-8 space-y-6 text-white shadow-lg">
           <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-purple-900 flex items-center justify-center">
-            <FaShareSquare className="text-white text-3xl" />
+            <FaRocket className="text-white text-3xl" />
           </div>
-          <h3 className="text-xl md:text-2xl font-bold mb-2">Publish</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-2">Launch</h3>
           <p className="text-gray-400 text-center px-4">
-            Sit back as we distribute your videos across all platforms, driving engagement and conversions.
+            Sit back as we deploy your project across all platforms, driving engagement and growth.
           </p>
         </div>
       </div>
@@ -52,4 +52,3 @@ const ThreeStepProcess: React.FC = () => {
 };
 
 export default ThreeStepProcess;
-

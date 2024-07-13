@@ -24,33 +24,33 @@ const AccordionDemo: React.FC = () => {
         >
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger>How fast will I receive my videos?</AccordionTrigger>
+              <AccordionTrigger>How fast will I receive my website or app?</AccordionTrigger>
               <AccordionContent>
-                Your videos will be delivered within 48 hours.
+                Your project timeline depends on its complexity, but we strive to deliver within 2-4 weeks.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger>How do I request videos?</AccordionTrigger>
+              <AccordionTrigger>How do I start a project?</AccordionTrigger>
               <AccordionContent>
-                You can request videos via our online form or contact us directly.
+                You can start a project by filling out our online form or contacting us directly.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger>Why wouldn’t I just hire my own editor?</AccordionTrigger>
+              <AccordionTrigger>Why shouldn’t I just hire my own developer?</AccordionTrigger>
               <AccordionContent>
-                Our service offers professional editing with quick turnaround times at a fraction of the cost.
+                Our service offers professional development with a team of experts, ensuring quick turnaround times and cost-effectiveness.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
-              <AccordionTrigger>What if I’m not happy with my video?</AccordionTrigger>
+              <AccordionTrigger>What if I’m not happy with my project?</AccordionTrigger>
               <AccordionContent>
                 We offer revisions to ensure you are satisfied with the final product.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-5">
-              <AccordionTrigger>Do you offer trials or make example videos?</AccordionTrigger>
+              <AccordionTrigger>Do you offer trials or sample projects?</AccordionTrigger>
               <AccordionContent>
-                Yes, we offer trial periods and can provide example videos upon request.
+                Yes, we offer trial periods and can provide sample projects upon request.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-6">

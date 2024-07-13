@@ -17,25 +17,25 @@ const ServicesComponent: React.FC = () => {
           How can we <span className="text-purple-500">help you</span>?
         </h2>
         <p className="text-gray-400 text-center mb-12 max-w-2xl mx-auto">
-          From short-form videos, to long-form videos, to ad creatives,
-          and VSLs, we&apos;ve got you covered on every front.
+          From websites to mobile apps, automation,
+          and more, we&apos;ve got you covered on every front.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <ServiceCard 
-            title="Short Form Videos" 
-            description="Nail your Reels, TikToks and YouTube shorts to optimize engagement and shareability."
+            title="Web Development" 
+            description="Build awesome websites that look great and work perfectly on all devices."
           />
           <ServiceCard 
-            title="YouTube Videos" 
-            description="YouTube videos made more engaging than ever for longer watch time and more subscribers."
+            title="Mobile Apps" 
+            description="Create cool mobile apps for both iOS and Android to reach more users."
           />
           <ServiceCard 
-            title="Thumbnail Design" 
-            description="Up to 80% higher click-through rates with top-notch graphics that lead to more views."
+            title="Automation" 
+            description="Automate tasks to save time and make your life easier."
           />
           <ServiceCard 
-            title="Channel Management" 
-            description="End-to-end growth strategy, SEO, maintenance and analytics to grow your channel."
+            title="Digital Marketing" 
+            description="Boost your online presence with effective digital marketing strategies."
           />
         </div>
       </div>
