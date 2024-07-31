@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import Image from 'next/image';
 import { Star } from 'lucide-react';
+import Link from 'next/link'; // Import the Link component from Next.js
 
 const HeroSection = () => {
   const profileImages = [
@@ -47,8 +48,14 @@ const HeroSection = () => {
           Hire a team of top-tier professionals committed to delivering exceptional digital experiences.
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <Button variant="default" size="lg" className="bg-purple-600 hover:bg-purple-900">Book a call</Button>
-          <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-black">Learn More</Button>
+          <Link href="/bookacall">
+            <Button variant="default" size="lg" className="bg-purple-600 hover:bg-purple-900">
+              Book a call
+            </Button>
+          </Link>
+          <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-black">
+            Learn More
+          </Button>
         </div>
       </div>
     </section>
