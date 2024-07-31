@@ -20,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} font-sans cursor-none`}>
+        <CustomCursor />
         <SmoothScroll>
           {children}
         </SmoothScroll>
