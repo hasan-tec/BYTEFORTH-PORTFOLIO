@@ -10,22 +10,22 @@ const logos = [
 
 const InfiniteLogoScroll: React.FC = () => {
   return (
-    <div className="w-full overflow-hidden bg-black py-20">
-      <div className="text-center text-sm text-gray-400 mb-8">
+    <div className="w-full overflow-hidden bg-black py-10 md:py-20">
+      <div className="text-center text-xs md:text-sm text-gray-400 mb-6 md:mb-8">
         You&apos;re in good hands:
       </div>
-      <div className="relative flex overflow-x-hidden overflow-y-hidden">
-        <div className="animate-marquee whitespace-nowrap flex items-center">
+      <div className="relative flex items-center">
+        <div className="whitespace-nowrap flex animate-marquee space-x-6 md:space-x-8">
           {logos.map((logo, index) => (
-            <div key={index} className="mx-8 flex items-center justify-center h-28">
-              <Image src={logo.src} alt={logo.alt} width={150} height={50} objectFit="contain" />
+            <div key={index} className="flex items-center justify-center h-16 md:h-28 mx-4 md:mx-6">
+              <Image src={logo.src} alt={logo.alt} width={120} height={40} objectFit="contain" />
             </div>
           ))}
         </div>
-        <div className="absolute top-0 animate-marquee2 whitespace-nowrap flex items-center">
+        <div className="absolute top-0 flex whitespace-nowrap animate-marquee2 space-x-6 md:space-x-8">
           {logos.map((logo, index) => (
-            <div key={index} className="mx-8 flex items-center justify-center h-28">
-              <Image src={logo.src} alt={logo.alt} width={150} height={50} objectFit="contain" />
+            <div key={index} className="flex items-center justify-center h-16 md:h-28 mx-4 md:mx-6">
+              <Image src={logo.src} alt={logo.alt} width={120} height={40} objectFit="contain" />
             </div>
           ))}
         </div>

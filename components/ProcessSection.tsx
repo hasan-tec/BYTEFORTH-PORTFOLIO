@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { FaLightbulb, FaHammer, FaRocket } from 'react-icons/fa';
 
@@ -43,9 +44,11 @@ const ThreeStepProcess: React.FC = () => {
         </div>
       </div>
       <div className="text-center mt-12">
+      <Link href="/bookacall">
         <button className="bg-primary text-white py-3 px-8 rounded-full hover:bg-primary-dark transition duration-300 ease-in-out transform hover:scale-105">
           Book a 30-min call →
         </button>
+        </Link>
       </div>
     </section>
   );

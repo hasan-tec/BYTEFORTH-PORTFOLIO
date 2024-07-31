@@ -2,22 +2,22 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-20">
-      <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center">
+    <footer className="bg-black text-white py-10 md:py-20">
+      <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-start lg:items-center">
         <div className="mb-8 lg:mb-0">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">ByteForth</h2>
           <p className="text-gray-400 mb-4">
             Join our newsletter for the latest updates and offers.
           </p>
-          <form className="flex items-center">
+          <form className="flex flex-col sm:flex-row items-start sm:items-center">
             <input 
               type="email" 
               placeholder="Your Email Address" 
-              className="px-4 py-3 rounded-l-md bg-gray-800 text-gray-200 focus:outline-none focus:bg-gray-700"
+              className="px-4 py-3 rounded-l-md bg-gray-800 text-gray-200 focus:outline-none focus:bg-gray-700 mb-2 sm:mb-0 sm:mr-2"
             />
             <button 
               type="submit" 
-              className="px-6 py-3 bg-purple-600 text-white rounded-r-md hover:bg-purple-500 focus:outline-none"
+              className="px-6 py-3 bg-purple-600 text-white rounded-md hover:bg-purple-500 focus:outline-none"
             >
               Get Notified
             </button>
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-gray-800 mt-8 pt-4 text-center">
-        <p className="text-gray-400">© 2024 Unchained. All rights reserved.</p>
+        <p className="text-gray-400">© 2024 ByteForth. All rights reserved.</p>
       </div>
     </footer>
   );

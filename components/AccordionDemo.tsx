@@ -10,7 +10,7 @@ import Card from './Card';
 const AccordionDemo: React.FC = () => {
   return (
     <div className="flex justify-center">
-      <div className="max-w-3xl w-full"> {/* Adjust max-width to your desired size */}
+      <div className="max-w-6xl w-full"> {/* Adjust max-width to your desired size */}
         <Card
           title="Frequently Asked Questions"
           layout="default"

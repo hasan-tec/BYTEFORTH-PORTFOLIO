@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -24,7 +25,9 @@ const Navbar = () => {
           <Link href="/process" className="text-foreground hover:text-primary">Process</Link>
           <Link href="/faqs" className="text-foreground hover:text-primary">FAQs</Link>
         </div>
+        <Link href="/bookacall">
         <Button variant="default">Book a call</Button>
+        </Link>
         {/* Mobile Menu Button */}
         <button className="md:hidden text-foreground" onClick={toggleMenu}>
           <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>

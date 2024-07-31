@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 
 const MissionStatement: React.FC = () => {
   return (
@@ -13,10 +14,13 @@ const MissionStatement: React.FC = () => {
         Specializing in advanced web, mobile, and automation solutions to enhance your digital presence. 
         Our aim is to propel your brand forward with effective strategies for sustainable growth.
         </p>
+        <Link href="/bookacall">
         <Button variant="default" size="lg" className="group">
+        
           Schedule a Consultation
           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </Button>
+        </Link>
       </div>
     </section>
   );
